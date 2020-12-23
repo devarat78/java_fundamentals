@@ -13,8 +13,13 @@ public class Exercise_04 {
     public static void main(String[] args) {
 
         int i = 1;
-        System.out.println("int i is: " + i);
+        System.out.println("int i is: " + i );
 
+        long a = 100000000;
+        System.out.println("long is: " + a);
+
+        double b = 0.5;
+        System.out.println("double is: "+ b) ;
         // write your code below
 
     }
