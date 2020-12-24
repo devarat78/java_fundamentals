@@ -15,11 +15,34 @@ public class Exercise_04 {
         int i = 1;
         System.out.println("int i is: " + i );
 
+        byte e =127;
+        System.out.println("byte e is: " + e);
+
         long a = 100000000;
         System.out.println("long is: " + a);
 
+        short Val = 32578;
+        System.out.println("short is:" + Val);
+
         double b = 0.5;
         System.out.println("double is: "+ b) ;
+
+        float k = 2.5f;
+        System.out.println("float is:" + k);
+
+        char y = 'w';
+        System.out.println(y);
+        y = 'a';
+        y = '^';
+
+
+
+
+
+
+
+
+
         // write your code below
 
     }
