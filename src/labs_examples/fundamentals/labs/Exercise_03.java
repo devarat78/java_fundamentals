@@ -18,7 +18,7 @@ public class Exercise_03 {
 
         // write code to print out "Check out my first program!" below
 
-        System.out.println("Check out my first programs!");
+        System.out.println("Check out my first program!");
     }
    
 
