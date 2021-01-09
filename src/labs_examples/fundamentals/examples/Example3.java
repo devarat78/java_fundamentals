@@ -24,6 +24,11 @@ class Example3 {
         var = var / 4;
         x = x / 4;
 
+        int b = 100;
+        b = b + 5;
+
+        b += 5;
+
         System.out.println("var after division: " + var);
         System.out.println("x after division: " + x);
     }
