@@ -12,6 +12,25 @@ class ArithmeticOperators {
 
         // write your code below
 
+      int a = 10;
+
+       a *= 5;
+
+       a /= 2;
+
+       a -= 3;
+
+       a %= 5;
+       System.out.println("22 divided by 5 is 4 remainder:\t" + a);
+
+
+
+
+
+
+
+
+
     }
 
 }

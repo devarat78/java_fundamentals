@@ -53,15 +53,6 @@ public class Exercise_05 {
         str2 = str2.replace("ll", "ff");
         System.out.println(str2);
 
-        int val1 = 10;
-        int val2 = 20;
-        //test
-
-        if (val1 < val2) {
-            System.out.println("This will print - #1");
-
-
-        }
     }
 }
 

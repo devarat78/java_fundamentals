@@ -18,6 +18,23 @@ public class Exercise_01 {
 
         // write code here
 
+        int a = 100;
+        System.out.println("the value of a is equal to:\t" + a);
+
+        double b =  25.50;
+        System.out.println(b);
+
+        float c = 30.78f;
+        System.out.println(c);
+
+        char devarat;
+
+        devarat = 'A';
+        System.out.println(devarat);
+
+
+
+
     }
 }
 

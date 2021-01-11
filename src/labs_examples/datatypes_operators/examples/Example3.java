@@ -5,7 +5,7 @@ class CharArithDemo {
     public static void main(String args[]) {
         char ch;
 
-        ch = 'X';
+        ch = 'A';
         System.out.println("ch contains " + ch);
 
         ch++; // increment ch
