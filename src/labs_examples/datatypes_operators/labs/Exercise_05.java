@@ -17,7 +17,7 @@ class LogicalOperators {
             System.out.println("a or b is true");
         }
 
-        // write your code below
+
 
     }
 

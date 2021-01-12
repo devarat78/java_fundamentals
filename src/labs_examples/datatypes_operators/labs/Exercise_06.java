@@ -12,7 +12,18 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int height = 5;
+        double radius = 3.14;
+        //volume formula = pi*r^2*h
 
+        double volume = Math.PI * Math.pow(radius,2) * height;
+        System.out.println(volume);
+
+        //surface area formula = 2 (pi)(r)(h) + 2 (pi)(r^2) =  2 pi r(h + r)
+
+        double surfaceArea = (2 * Math.PI * radius * height) + (2 * Math.PI* Math.pow(3.14,2));
+        System.out.println(surfaceArea);
+
+        // need help
     }
 }
