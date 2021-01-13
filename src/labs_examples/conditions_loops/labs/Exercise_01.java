@@ -25,5 +25,13 @@ public class Exercise_01 {
 
         // write completed code here
 
+        if (number % 2 == 0) {
+            System.out.println("this is even");
+        } else if(number % 3 == 0){
+            System.out.println("this is mult of 3 ");
+        }
+        else{
+            System.out.println("odd");
+        }
     }
 }

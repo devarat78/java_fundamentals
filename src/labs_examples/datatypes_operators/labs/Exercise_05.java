@@ -15,6 +15,8 @@ class LogicalOperators {
         boolean b = false;
         if (a | b){
             System.out.println("a or b is true");
+
+
         }
 
 

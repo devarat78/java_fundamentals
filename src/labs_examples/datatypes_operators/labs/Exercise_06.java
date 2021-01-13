@@ -1,4 +1,6 @@
 package labs_examples.datatypes_operators.labs;
+import java.util.*;
+
 
 /**
  * Fundamentals Exercise 4: Volume and Surface Area
@@ -8,12 +10,21 @@ package labs_examples.datatypes_operators.labs;
  *
  */
 
+
 public class Exercise_06 {
+
+
 
     public static void main(String[] args) {
 
-        int height = 5;
-        double radius = 3.14;
+        System.out.println("Enter radius: ");
+        Scanner sc = new Scanner(System.in);
+        double radius = sc.nextDouble();
+
+        System.out.println("Enter height: ");
+        double height = sc.nextDouble();
+
+
         //volume formula = pi*r^2*h
 
         double volume = Math.PI * Math.pow(radius,2) * height;
@@ -23,6 +34,8 @@ public class Exercise_06 {
 
         double surfaceArea = (2 * Math.PI * radius * height) + (2 * Math.PI* Math.pow(3.14,2));
         System.out.println(surfaceArea);
+
+
 
         // need help
     }
