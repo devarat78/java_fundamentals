@@ -1,19 +1,20 @@
 package labs_examples.conditions_loops.labs;
+
 import java.util.*;
+
 /**
  * Conditions and Loops Exercise 3: Months of the year
- *
- *      Take in a number from the user and print "January", "February", ... "December", or "Other"
- *      if the number from the user is 1, 2,... 12, or other respectively. Use a "switch" statement.
- *
+ * <p>
+ * Take in a number from the user and print "January", "February", ... "December", or "Other"
+ * if the number from the user is 1, 2,... 12, or other respectively. Use a "switch" statement.
  */
 
 public class Exercise_03 {
-    public static void main(String args[]){
-        Scanner bob = new Scanner(System.in);
-        System.out.println("Print any number between 1 - 12");
-        int month = bob.nextInt();
+    public static void main(String args[]) {
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Print any number between 1 - 12");
+        int month = sc.nextInt();
         String monthString;
 
         // switch statement with int data type
@@ -35,10 +36,10 @@ public class Exercise_03 {
                 break;
             case 6:
                 monthString = "Jun";
-               break;
+                break;
             case 7:
                 monthString = "Jul";
-              break;
+                break;
             case 8:
                 monthString = "Aug";
                 break;
@@ -52,14 +53,12 @@ public class Exercise_03 {
                 monthString = "Nov";
                 break;
             case 12:
-                monthString = "December";
+                monthString = "Dec";
+                break;
 
             default:
                 monthString = "Invalid day";
         }
         System.out.println(monthString);
-
-
     }
-
 }
