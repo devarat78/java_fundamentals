@@ -1,4 +1,5 @@
 package labs_examples.conditions_loops.labs;
+import java.util.*;
 
 /**
  * Conditions and Loops Exercise 6: Basic while loop
@@ -8,4 +9,25 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_06 {
+    public static void main(String[] args) {
+
+        System.out.println("Input the Lower Bound");
+        Scanner sc = new Scanner(System.in);
+        int lower = sc.nextInt();
+
+        System.out.println("Input the Upper Bound");
+        int upper = sc.nextInt();
+
+
+        int sum = 0;
+
+        int i =lower;
+        while( i<=upper){
+            sum += i;
+
+            // sum = sum + i;
+            System.out.println(sum);
+            i++;
+        }
+    }
 }
