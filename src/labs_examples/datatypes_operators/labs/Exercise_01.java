@@ -30,11 +30,15 @@ public class Exercise_01 {
         char devarat;
 
         devarat = 'A';
+
+        String s = "devarat";
+        int i = s.length();
+        System.out.println(i);
+
+        char ch = s.charAt(2);
+        System.out.println(ch);
+
         System.out.println(devarat);
-
-
-
-
     }
 }
 

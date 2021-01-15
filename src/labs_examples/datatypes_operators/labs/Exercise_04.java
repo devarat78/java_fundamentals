@@ -33,13 +33,16 @@ class RelationalOperators {
         }
 
         // example of "greater than or equal to"
-        if (e >= d);
-        System.out.println("e greater than equal to d");
-
+        if (e >= d){
+            System.out.println("e greater than equal to d");
+        }
         // example of "equal to"
-        if (d == e);
-        System.out.println("d is equal to e");
-
+        if (d == e) {
+            System.out.println("d is equal to e");
+        }
+        if (a != b){
+            System.out.println("a is not equal to b");
+        }
     }
 }
 

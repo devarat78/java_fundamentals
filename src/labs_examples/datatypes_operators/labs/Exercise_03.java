@@ -22,15 +22,6 @@ class ArithmeticOperators {
 
        a %= 5;
        System.out.println("22 divided by 5 is 4 remainder:\t" + a);
-
-
-
-
-
-
-
-
-
     }
 
 }

@@ -29,18 +29,18 @@ public class Exercise_05 {
         int upper = sc.nextInt();
 
 
-        int sum = 0;
+        int x = 0;
 
 
         for(int i =lower; i<=upper; i++ ){
-            sum += i;
+            x += i;
 
-            // sum = sum + i;
-            System.out.println(sum);
+            // x = x + i;
+            System.out.println(x);
         }
 
         double avg = (double)(lower+upper)/2;
-        System.out.println(avg);
+        System.out.println("the average is: " +avg);
 
 
 
