@@ -27,5 +27,19 @@ public class Exercise_07 {
             }
             i++;
         }
+
+        i = 0;
+        String vowels = "aeiou";
+
+        while(i < str.length()){
+            char c = str.charAt(i);
+            if(vowels.indexOf(c) != -1 ){
+                System.out.println(c + " " + str);
+                break;
+            }
+            i++;
+
+        }
+
     }
 }

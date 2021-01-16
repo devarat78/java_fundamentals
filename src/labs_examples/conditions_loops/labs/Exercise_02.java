@@ -25,25 +25,18 @@ public class Exercise_02 {
 
         if (numDay == 1) {
             System.out.println("Sunday");
-        }
-        if (numDay == 2) {
+        } else if (numDay == 2) {
             System.out.println("Monday");
-        }
-        if (numDay == 3) {
+        } else if (numDay == 3) {
             System.out.println("Tuesday");
-        }
-        if (numDay == 4) {
+        } else if (numDay == 4) {
             System.out.println("Wednesday");
-        }
-        if (numDay == 5) {
+        } else if (numDay == 5) {
             System.out.println("Thursday");
-        }
-        if (numDay == 6) {
+        } else if (numDay == 6) {
             System.out.println("Friday");
-        }
-        if (numDay == 7) {
+        } else if (numDay == 7) {
             System.out.println("Saturday");
         }
-
     }
 }

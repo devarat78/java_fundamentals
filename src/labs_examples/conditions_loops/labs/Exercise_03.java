@@ -21,44 +21,56 @@ public class Exercise_03 {
         switch (month) {
             case 1:
                 monthString = "Jan";
+                System.out.println(monthString);
                 break;
             case 2:
                 monthString = "Feb";
+                System.out.println(monthString);
                 break;
             case 3:
                 monthString = "Mar";
+                System.out.println(monthString);
                 break;
             case 4:
                 monthString = "Apr";
+                System.out.println(monthString);
                 break;
             case 5:
                 monthString = "May";
+                System.out.println(monthString);
                 break;
             case 6:
                 monthString = "Jun";
+                System.out.println(monthString);
                 break;
             case 7:
                 monthString = "Jul";
+                System.out.println(monthString);
                 break;
             case 8:
                 monthString = "Aug";
+                System.out.println(monthString);
                 break;
             case 9:
                 monthString = "Sep";
+                System.out.println(monthString);
                 break;
             case 10:
                 monthString = "Oct";
+                System.out.println(monthString);
                 break;
             case 11:
                 monthString = "Nov";
+                System.out.println(monthString);
                 break;
             case 12:
                 monthString = "Dec";
+                System.out.println(monthString);
                 break;
 
             default:
                 monthString = "Invalid day";
+                System.out.println(monthString);
         }
-        System.out.println(monthString);
     }
 }

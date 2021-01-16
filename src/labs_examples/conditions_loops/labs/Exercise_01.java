@@ -29,8 +29,13 @@ public class Exercise_01 {
             System.out.println("this is even");
         } else if(number % 3 == 0){
             System.out.println("this is mult of 3 ");
-        }
-        else{
+
+            if (number == 9){
+                System.out.println("the number is 9");
+            } else{
+                System.out.println("the number is not 9");
+            }
+        } else{
             System.out.println("odd");
         }
     }
