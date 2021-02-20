@@ -32,7 +32,7 @@ public class Exercise_05 {
         int x = 0;
 
 
-        for(int i =lower; i<=upper; i++ ){
+        for(int i =lower; i <= upper; i++ ){
             x += i;
 
             // x = x + i;
