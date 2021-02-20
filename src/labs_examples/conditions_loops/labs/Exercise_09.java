@@ -8,4 +8,16 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_09 {
+
+    public static void main(String[] args) {
+        int a = 250;
+        for(int i = 1; i < 10; i++){
+        if(a%2 == 1){
+            System.out.println(i);
+            System.out.println(a);
+            break;
+        }
+        a /= i;
+        }
+    }
 }
