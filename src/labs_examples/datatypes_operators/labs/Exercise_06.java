@@ -34,8 +34,6 @@ public class Exercise_06 {
 
         double surfaceArea = (2 * Math.PI * radius * height) + (2 * Math.PI* Math.pow(3.14,2));
         System.out.println("the surface area is: "+ surfaceArea);
-
-
         }
 
     }
